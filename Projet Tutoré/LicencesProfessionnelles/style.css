@@ -1,0 +1,27 @@
+body, .content, p.header { background-color: rgb(255,255,250); }
+p,ul,dl,ol,td,h1,h2,h3,dt,dd,em { color:rgb(0,0,0); font-family:Verdana,Arial,sans-serif; font-size:10pt; }
+pre,tt { color:rgb(0,0,0); font-family:Courier, monospace; font-size:10pt; }
+p.header { color:rgb(0,0,64); font-size:16pt; text-align:right; border-color:rgb(54,0,0); border-bottom-style:solid; border-bottom-width:4px; border-top-style:solid; border-top-width:4px; margin-left:0; padding: 0px; margin-right: 0px; margin-left: 0px; margin-top: 3px; margin-bottom: 3px; font-weight:bold; }
+h1, h2, h3, h4 { border-color:rgb(0,16,232); border-bottom-style:solid; text-align: left;}
+h1 { padding-top: 3px; border-bottom-width:4px; font-size: 14pt; }
+h2 { padding-top: 2px; border-bottom-width:3px; font-size: 13pt; }
+h3 { padding-top: 1px; border-bottom-width:2px; font-size: 12pt; }
+h3 { padding-top: 1px; border-bottom-width:1px; font-size: 11pt; }
+dt { font-weight:bold; }
+a { color: rgb(0,16,232); }
+a:link, a:visited { font-weight:bold; text-decoration:none; }
+a:hover, a:active { font-weight:bold; text-decoration:underline; }
+a.xwebLink:link, a.xwebLink:visited { font-weight:normal; text-decoration:none; }
+a.xwebLink:hover, a.xwebLink:active { font-weight:normal; text-decoration:underline; }
+td.navNormalSection { color:white; white-space:nowrap; background-color:rgb(0,0,180); padding:6px; text-align:center; font-weight:bold;}
+td.navActiveSection a:link, td.navActiveSection a:visited, td.navNormalSection a:link, td.navNormalSection a:visited { color:rgb(255,255,255); white-space:nowrap; text-decoration:none; }
+td.navNormalSection a:hover, td.navNormalSection a:active { text-decoration:underline; }
+td.navActiveSection { color:white; white-space:nowrap; background-color:rgb(0,48,255); padding:6px; text-align:center; font-weight:bold;}
+td.navNormalEntry { white-space:nowrap; background-color:rgb(255,255,230); padding:3px; text-align:right; }
+td.navNormalEntry a:link, td.navNormalEntry a:visited { color:rgb(0,0,0); font-weight:bold; text-decoration:none; }
+td.navNormalEntry a:hover, td.navNormalEntry a:active { text-decoration:underline; }
+td.navActiveEntry { white-space:nowrap; background-color:rgb(255,255,180); color:rgb(0,0,0); font-weight:bold; text-decoration:none; padding:3px; text-align:right; }
+td.marginInSection { padding:0px; font-size:0pt;}
+.menu { background-color:rgb(230,230,250); }
+em {color: rgb(0,64,16); font-style: normal; font-weight:bold;}
+.firstLetter { color:rgb(0,64,16); font-weight:bold; }

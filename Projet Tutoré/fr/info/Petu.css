@@ -1,0 +1,439 @@
+body{
+    background-color: rgba(4, 71, 130, 0.4);
+    width: 1000px;
+	margin-top: 1%;
+	margin-left: 25%;
+
+}
+
+#entete{
+	margin-right: 10%;
+    width: 1000px;
+    height: 200px;
+    background-color: rgba(4, 71, 130, 0.5);
+    border-radius: 15px;
+    padding: 1%;
+    display:flex;
+}
+
+#langue{
+    margin-top: 2%;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+}
+
+#principal{
+    margin-left: 10%;
+    width: 65px;
+    height: 50px;
+    background-color: white;
+    float: left;
+    margin-bottom: 5%;
+}
+
+#second{
+    width: 65px;
+    height: 50px;
+    background-color: red;
+    float: right;
+    margin-right: 10%;
+    opacity: .5;
+}
+
+#recherche{
+    height: 35px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+textarea {
+  resize: none;
+}
+
+#recherche p{
+    padding-top: 5px;
+}
+
+#logo{
+    margin-top: 4%;
+    width: 180px;
+    height: 120px;
+    background-color:rgba(4, 71, 130, 0.35);
+    border-radius: 10px;
+    float:right;
+}
+#iut {
+	width: 600px;
+	height: 190px;
+	background-image: url(../../img/iut.png);
+	background-size: 600px 190px;
+	margin: auto;
+
+}
+
+ul{
+    width: 100%;
+    margin-left: 40px;
+
+}
+
+#list {
+    margin-top: 4%;
+
+}
+
+#page {
+    font-weight: bold;
+    display: inline;
+
+}
+
+#list li {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+#acc a {
+  margin-right: 2px;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgba(4, 71, 130, 0.35);
+}
+
+#acc a:hover{
+  background-color: rgba(4, 71, 130, 0.7);
+}
+
+#info a{
+  margin-right: 2px;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgba(4, 71, 130, 0.35);
+}
+
+#info a:hover{
+  background-color: rgba(4, 71, 130, 0.7);
+}
+
+#etu a{
+  margin-right: 2px;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgba(4, 71, 130, 0.35);
+}
+
+#etu a:hover{
+  background-color: rgba(4, 71, 130, 0.7);
+}
+
+#ens a{
+  margin-right: 2px;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgba(4, 71, 130, 0.35);
+}
+
+#ens a:hover{
+  background-color: rgba(4, 71, 130, 0.7);
+}
+
+#ent a{
+  margin-right: 2px;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: rgba(4, 71, 130, 0.35);
+}
+
+#ent a:hover{
+  background-color: rgba(4, 71, 130, 0.7);
+}
+
+
+#list a {
+	text-decoration: none;
+	color: black;
+
+}
+
+#contenu {
+    display: flex;
+    margin-top: 5%;
+    width: 1020px;
+    font-size: 20px;
+
+}
+
+#menu {
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+#menu p{
+    height: 17px;
+    padding: 7px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+#menu a {
+	text-decoration: none;
+	color: black;
+
+}
+
+#menu p :hover{
+    color : rgb(199, 97, 14);
+
+}
+
+
+#menu b {
+    font-size: 20px;
+}
+
+#explication {
+    margin-left: 2%;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-right: 2% ;
+    width: 800px;
+    border-radius: 10px;
+    font-family: 'Calibri', sans-serif;
+
+}
+
+#explication p {
+    padding-right: 40px;
+    padding-left: 20px;
+
+}
+
+#explication a {
+    text-decoration: none;
+    color : rgb(199, 97, 14);
+
+}
+
+h3{
+    color: black;
+    background-color: rgba(4, 71, 130, 0.5);
+    padding: 8px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+
+
+#choix {
+  margin-top:5%;
+  margin-bottom: 5%;
+}
+
+#choix li {
+    display: inline;
+    font-size: 15px;
+    font-family: 'Lucida Sans', sans-serif;
+    width: 250px;
+    text-align: center;
+}
+
+#choix a {
+	text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding-top:2%;
+  padding-bottom:2%;
+  margin-left: 2%;
+}
+
+#choix #actuel a {
+	padding-left:15%;
+  padding-right:15%;
+  background-color: rgba(77, 135, 185, 0.80);
+}
+
+#choix #autre a {
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  padding-left:18%;
+  padding-right:18%;
+  background-color: rgba(77, 135, 185, 0.35);
+  margin-left:-1.75%;
+}
+
+
+#retour{
+    width: 300px;
+    height: 40px;
+    float: right;
+    margin-top: 1.5%;
+
+}
+
+#past{
+    width: 40px;
+    height: 40px;
+    background-image: url(../../img/retour.png);
+    background-size: 40px 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 15px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+
+}
+
+#retour a {
+	text-decoration: none;
+	color: black;
+
+}
+
+#retour a :hover{
+    color : rgb(199, 97, 14);
+}
+
+@media all and (max-width: 414px){
+  body{
+    width: 414px;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  #entete{
+    margin-left:0.5%;
+    margin-right:0.5%;
+    width:auto;
+    height:150px;
+  }
+
+  #langue {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 75px;
+    margin-top: 15%;
+  }
+
+  #langue p {
+    display:none;
+    width: 100px;
+  }
+
+  #iut{
+  display: none;
+  margin: auto;
+  }
+
+  #recherche {
+    margin-top:0%;
+  }
+
+  ul{
+    margin-left:-9.5%;
+  }
+
+  #list li{
+    display:block;
+    margin-top: 0.5%;
+    border-radius: 5px;
+    text-align:center;
+    margin-top: 2%;
+  }
+
+
+  #acc a{
+    padding-left:40%;
+    padding-right: 40%;
+    padding-top: 4%;
+    padding-bottom: 5%;
+  }
+
+  #info a{
+    padding-left:22%;
+    padding-right: 22%;
+    padding-top: 3.5%;
+    padding-bottom: 5%;
+  }
+
+  #etu a{
+    padding-left: 32%;
+    padding-right: 32%;
+    padding-top: 3.75%;
+    padding-bottom: 4%;
+  }
+
+  #ens a{
+    padding-left: 29.5%;
+    padding-right: 29.5%;
+    padding-top: 4.5%;
+    padding-bottom: 5.5%;
+  }
+
+  #ent a{
+    padding-left:30%;
+    padding-right: 30%;
+    padding-top: 3.25%;
+    padding-bottom: 4%;
+  }
+  ul li{
+    margin-right: 2px;
+    padding-left: 20%;
+    padding: 3%;
+    border-radius: 10px;
+  }
+
+  #contenu{
+    width:auto;
+    float:inherit;
+  }
+
+  #menu{
+    position: absolute;
+    width: 408px;
+    margin-left: 0.75%;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  #explication{
+    margin-top: 120%;
+  }
+
+  #choix{
+    display: contents;
+  }
+
+  #choix li {
+      border-radius: 10px;
+      font-size: 15px;
+      font-family: 'Lucida Sans', sans-serif;
+      width: 160px;
+      height: 40px;
+      text-align: center;
+      padding: 4.5%;
+      margin-left:-4.9%;
+  }
+
+  #choix a {
+  	  text-decoration: none;
+      color: black;
+  }
+
+  #retour{
+    display:none;
+  }
+}
